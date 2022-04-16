@@ -82,7 +82,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       onTap: () {
                         Navigator.push(
                           context,
-                          MaterialPage,
+                          Material,
                         );
                       },
                       child: Stack(
