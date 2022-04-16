@@ -2,7 +2,6 @@
 
 import 'package:flutter/material.dart';
 import 'package:solar_system/Data.dart';
-import 'package:solar_system/Detail_Screen.dart';
 import 'constants.dart';
 import 'package:flutter_swiper/flutter_swiper.dart';
 
