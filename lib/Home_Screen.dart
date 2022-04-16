@@ -82,7 +82,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       onTap: () {
                         Navigator.push(
                           context,
-                          MaterialPageRoute(builder: (builder)=>DetailS),
+                          MaterialPageRoute(builder: (builder)=>Detail),
                         );
                       },
                       child: Stack(
