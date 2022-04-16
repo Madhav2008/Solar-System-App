@@ -5,9 +5,9 @@ import 'package:solar_system/data.dart';
 import 'constants.dart';
 
 class DetailScreen extends StatelessWidget {
-  DetailScreen({Key? key, this.planetInfo}) : super(key: key);
+  DetailScreen({Key? key, required this.planetInfo}) : super(key: key);
 
-  final planetInfo;
+  final PlanetInfo planetInfo;
 
   @override
   Widget build(BuildContext context) {
