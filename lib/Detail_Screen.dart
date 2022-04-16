@@ -1,12 +1,13 @@
 // ignore_for_file: file_names
 
 import 'package:flutter/material.dart';
+import 'package:solar_system/Data.dart';
 import 'constants.dart';
 
 class DetailScreen extends StatelessWidget {
   DetailScreen({Key? key, required this.planetInfo}) : super(key: key);
 
-  final planetInfo;
+  final PlanetInfo planetInfo;
 
   @override
   Widget build(BuildContext context) {
