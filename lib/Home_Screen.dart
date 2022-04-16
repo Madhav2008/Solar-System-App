@@ -1,4 +1,4 @@
-// ignore_for_file: file_names, import_of_legacy_library_into_null_safe
+// ignore_for_file: file_names, import_of_legacy_library_into_null_safe, prefer_const_literals_to_create_immutables
 
 import 'package:flutter/material.dart';
 import 'package:solar_system/Data.dart';
