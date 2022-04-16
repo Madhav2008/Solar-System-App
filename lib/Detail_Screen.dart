@@ -5,7 +5,7 @@ import 'constants.dart';
 class DetailScreen extends StatelessWidget {
   final PlanetInfo planetInfo;
 
-  const DetailScreen({Key? key, this.planetInfo}) : super(key: key);
+  DetailScreen({Key? key, this.planetInfo}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
