@@ -25,7 +25,7 @@ class DetailScreen extends StatelessWidget {
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: <Widget>[
-                        SizedBox(height: 300),
+                        SizedBox(height: 300,),
                         Text(
                           planetInfo.name,
                           style: TextStyle(
