@@ -7,7 +7,7 @@ class PlanetInfo {
 
   PlanetInfo(
     this.position, {
-    this.name,
+    required this.name,
     this.iconImage,
     this.description,
     this.images,
