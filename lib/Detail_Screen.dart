@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_universe/data.dart';
+import 'package:solar_system/data.dart';
 import 'constants.dart';
 
 class DetailScreen extends StatelessWidget {
   DetailScreen({Key? key, this.planetInfo}) : super(key: key);
-  
+
   final planetInfo;
 
   @override
