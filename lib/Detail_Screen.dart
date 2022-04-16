@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter_universe/data.dart';
 import 'constants.dart';
 
-class DetailPage extends StatelessWidget {
+class DetailScreen extends StatelessWidget {
   final PlanetInfo planetInfo;
 
-  const DetailPage({Key key, this.planetInfo}) : super(key: key);
+  const DetailScreen({Key key, this.planetInfo}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
