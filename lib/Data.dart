@@ -10,7 +10,7 @@ class PlanetInfo {
     required this.name,
     required this.iconImage,
     required this.description,
-    this.images,
+    required this.images,
   });
 }
 
