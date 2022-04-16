@@ -2,6 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:solar_system/Data.dart';
+import 'package:solar_system/Detail_Screen.dart';
 import 'constants.dart';
 import 'package:flutter_swiper/flutter_swiper.dart';
 
@@ -82,7 +83,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         Navigator.push(
                           context,
                           PageRouteBuilder(
-                            pageBuilder: (context, a, b) => DetailPage(
+                            pageBuilder: (context, a, b) => DetailScreen(
                               planetInfo: planets[index],
                             ),
                           ),
