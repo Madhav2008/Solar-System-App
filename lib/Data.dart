@@ -8,7 +8,7 @@ class PlanetInfo {
   PlanetInfo(
     this.position, {
     required this.name,
-    this.iconImage,
+    required this.iconImage,
     this.description,
     this.images,
   });
