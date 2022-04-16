@@ -1,3 +1,4 @@
+// ignore: file_names
 import 'package:flutter/material.dart';
 
 Color primaryTextColor = Color(0xFF414C6B);
