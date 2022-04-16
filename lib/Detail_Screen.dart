@@ -49,7 +49,7 @@ class DetailScreen extends StatelessWidget {
                         Divider(color: Colors.black38),
                         SizedBox(height: 32),
                         Text(
-                          planetInfo.description ?? '',
+                          planetInfo.description,
                           maxLines: 5,
                           overflow: TextOverflow.ellipsis,
                           style: TextStyle(
